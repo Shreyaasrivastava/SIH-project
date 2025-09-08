@@ -1,0 +1,21 @@
+{
+    "certificate_id": "WIPE-CERT-123456789",
+    "device_info": {
+        "device_type": "Laptop",
+        "manufacturer": "Dell",
+        "model": "XPS 15",
+        "serial_number": "SN1234567890"
+    },
+    "wipe_details": {
+        "method": "NIST SP 800-88 Purge",
+        "wiped_drives": [
+            "/dev/sda",
+            "/dev/sdb"
+        ],
+        "verification_status": "Passed"
+    },
+    "timestamp": "2025-09-08T20:14:00.786117+00:00",
+    "app_id": "your-unique-app-id",
+    "digital_signature_base64": "MEYCIQDS5THqD7To54MHIC4YPXfGSCPCQRwC1YFKz7v5WI+jXQIhAMnfjvOHgTQrkJ8a0YMaGOHe0kpa/J/qGm6OoZgrE6AC",
+    "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgJorxLuXcwDmxSpx+I4eXSfP/6xP\nbuZvhug0FQIcBWwuG20Ytxfgwp1usQl94QQB6c2zI26bhZuXQsWkPmParA==\n-----END PUBLIC KEY-----\n"
+}
